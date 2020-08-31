@@ -16,3 +16,9 @@ Esta carpeta incluye:
 Esta carpeta contiene el código relacionado con la validación del algoritmo genético (GA) para el problema de programación de la producción en celdas de manufactur flowshop (flowshop group scheduling problem, FSGSP).
 
 Esta carpeta incluye:
+
+* algGeneticoSched: Este archivo contiene la clase en donde se definen los operadores del GA para el FSGSP
+* group_scheduling: Este archivo contiene la clase en donde se decodifica el cromosoma del GA para la obtención de la secuencia de familias y de trabajos en cada familia, se calcula la función objetivo (makespan, total completion time o total weighted tardiness) y se obtienen los valores óptimos mediante el módulo PuLP
+* fsgsp_...: Estos archivos comprenden la aplicación del GA a las instancias de datos propuestas por Salmasi et al, 2010, para 2 (2m), 3 (3m) y 6 (6m) máquinas, así como para la optimización del tiempo de terminación total (tct) y de la tardanza ponderada total (twt).
+
+## Carpeta: Aplicación Confección
