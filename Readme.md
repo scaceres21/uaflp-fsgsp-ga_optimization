@@ -34,3 +34,7 @@ Esta carpeta incluye:
 * fsgsp_confeccion_cmax/tct.py: En este archivo se aplica el GA para solucionar el FSGSP para el estado propuesto, con el fin de minimizar el makespan (Cmax) y el tiempo total de terminación (TCT).
 * Layout_Actual.png, Layout_Best.png, Layout_Propuesto_iter1.png: Imágenes del layout de bloques para la situación actual, el mejor encontrado por el GA y el layout propuesto para el caso del sector de la confección, respectivamente.
 * Input_....xlsx: Archivos que contienen los datos de entrada para el GA, tanto para el estado actual como para el estado propuesto.
+
+## Carpeta: Simulación en Simio
+
+Esta carpeta incluye archivo .md que contiene el link para acceder al modelo de simulación en Simio y al diseño de planta actual y propuesta en SketchUp
